@@ -1,0 +1,1 @@
+document.write('Join a band today!')
