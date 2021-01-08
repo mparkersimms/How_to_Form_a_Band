@@ -1,3 +1,4 @@
+function timeOfDay(){
 var today = new Date();
 var hourNow = today.getHours()
 var greeting;
@@ -12,3 +13,8 @@ if (hourNow > 18) {
       greeting = 'Welcome!'
   }
 document.write('<h2>' +  greeting  + '</h2>');
+
+return greeting;
+}
+
+let daylyGreet = timeOfDay();
